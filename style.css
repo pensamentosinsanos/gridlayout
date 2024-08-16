@@ -1,0 +1,115 @@
+
+header{
+    width: 100%;
+    height: 350px;
+    display: block;
+    float: left;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b8/Parque_Germ%C3%A2nia%2C_Porto_Alegre%2C_Brasil_.JPG);
+    background-size: 100%;
+}
+main{
+    width: 100%;
+    height: 680px;
+    display: block;
+    float: left;
+    background-color: bisque;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    display: block;
+    float: left;
+    background-color: darkkhaki;
+}
+footer section{
+    width: 33.3%;
+    height: 500px;
+    display: block;
+    float: left;
+    background-color: brown;
+}
+footer section:first-child{
+    background-color: dimgray;
+}
+footer section:last-child{
+    background-color: dimgray;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    margin-top: 120px;
+}
+h2{
+    text-align: left;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+#parquemain{
+    width: 80%;
+    height: 300px;
+    float: left;
+    margin-left: 125px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#historia{
+    display: block;
+    float: left;
+    font-size: x-large;
+    margin-top: 30px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.titulosfooter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    display: block;
+    float: left;
+    margin-left: 25%;
+    text-align: center;
+    width: 200px;
+}
+.imgfooter{
+    border-radius: 100%;
+    margin-left: 13%;
+    width: 300px;
+    height: auto;
+}
+.imgfooterfilme{
+    border-radius: 100%;
+    margin-left: 13%;
+    width: 300px;
+    height: 300px;
+}
+
+#umbral{
+    display: block;
+    margin-top: 10px;
+}
+
+#imgbral{
+    display: block;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 55px;
+}
+.textofooter{
+    display: block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 5px;
+    text-align: center;
+}
+.textofooterumbral{
+    display: block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 5px;
+    text-align: center;
+    margin-top: 295px;
+}
