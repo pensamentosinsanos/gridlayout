@@ -10,15 +10,44 @@
 
 }
 .container header{
-    background-color: aqua;
     height: 350px;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b8/Parque_Germ%C3%A2nia%2C_Porto_Alegre%2C_Brasil_.JPG);
+    background-size: 100%;
 }
+
 .container main{
     background-color: bisque;
     height: 680px;
+    grid-row-start: 2;
+    grid-row-end:2 ;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
-  
+
+.containerfooter{
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    grid-template-rows: repeat(3, auto);
+    gap: 1px;
+
+}
+.section1{
+    background-color: brown;
+    height: 400px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.section2{
+    background-color: brown;
+    height: 400px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
